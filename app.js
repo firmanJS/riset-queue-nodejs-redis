@@ -3,6 +3,4 @@ const { queue } = require('./queue')
 
 queue.on('ready', () => {
   lineUp('Job 1')
-  lineUp('Job 2')
-  lineUp('Job 3')
 })
